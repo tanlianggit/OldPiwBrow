@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rlLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:background="@drawable/login_bg">
+
+            <ImageView
+                android:id="@+id/imgJd"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:src="@drawable/jd" />
+
+            <EditText
+                android:id="@+id/txtPwd"
+                android:layout_width="200dip"
+                android:layout_height="30dip"
+                android:background="@drawable/radiusangle"
+                android:inputType="textPassword"
+                android:paddingLeft="60sp" android:layout_below="@id/imgJd" android:layout_marginTop="20dip">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="200dip"
+                android:layout_height="30dip"
+                android:layout_below="@id/txtPwd"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/radiusangle"
+                android:text="登录"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtPwd"
+                android:layout_alignBottom="@+id/txtPwd"
+                android:layout_alignLeft="@+id/txtPwd"
+                android:text="密码："
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" android:layout_marginLeft="8dip"/>
+
+            <TextView
+                android:id="@+id/txtSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnLogin"
+                android:layout_marginTop="24dp"
+                android:text="系统设置" />
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtSet"
+                android:layout_alignBottom="@+id/txtSet"
+                android:layout_alignRight="@+id/btnLogin"
+                android:text="使用说明" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgJd"
+                android:layout_toRightOf="@+id/imgJd"
+                android:src="@drawable/jdfms" />
+
+        </RelativeLayout>
+
+</LinearLayout>

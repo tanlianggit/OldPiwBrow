@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:adsmogo="http://www.adsmogo.com"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlTab"
+        android:layout_width="match_parent"
+        android:layout_height="40dip" android:background="#555555">
+
+        <TextView
+            android:id="@+id/txtAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="相册"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:layout_centerVertical="true" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtMaintain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff"
+            android:text="文件维护"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentRight="true" android:layout_marginRight="20dip" android:layout_centerVertical="true" android:textColor="#cccccc"/>
+
+     </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+
+        <ListView
+            android:id="@+id/lvAlbum"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" >
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_alignParentBottom="true" android:background="#dddddd">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

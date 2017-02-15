@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">登录</string>
+    <string name="app_name">简道相册</string>
+    <string name="spellSet">com.jd.SpellSet</string>
+    <string name="gallerySet">com.jd.GallerySet</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tl.pic.brow"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name = "android.permission.SET_WALLPAPER"/>
+	
+    <application
+        android:icon="@drawable/jd"
+        android:name="com.jd.ui.MyApplication"
+        android:label="@string/app_name" >
+        <meta-data android:name="BaiduMobAd_APP_ID" android:value="c800b166" />
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="c800b166" />
+        
+		<activity android:name="com.baidu.mobads.AppActivity" 
+		    android:configChanges="keyboard|keyboardHidden|orientation" />
+		
+        <activity
+            android:name="com.jd.ui.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".Login" >
+        </activity> 
+    	<activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.FileMainTain" >
+        </activity> 
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.LocalFile" >
+        </activity> 
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.AlbumFile" >
+        </activity> 
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.NeighborFile" >
+        </activity> 
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.HouseLink" >
+        </activity> 
+	     <activity 
+	            android:label="@string/app_name"
+	            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+	            android:name="com.jd.ui.GalleryAni" >
+	     </activity>
+	      <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.SpellPic" >
+        </activity>  
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.SpellSet" >
+        </activity> 
+        
+           <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.GallerySet" >
+        </activity> 
+        <activity 
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.jd.ui.Help" >
+        </activity> 
+    </application>
+
+</manifest>

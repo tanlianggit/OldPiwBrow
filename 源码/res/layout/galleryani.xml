@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.jd.adp.GalleryFlow
+            android:id="@+id/gl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/transparent_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgSeq"
+                android:layout_width="34dip"
+                android:layout_height="34dip"
+                android:src="@drawable/ordered" android:layout_marginLeft="20dip" android:layout_marginRight="10dip"/>
+
+            <ImageView
+                android:id="@+id/imgRandom"
+                android:layout_width="34dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/shuffle" />
+
+            <ImageView
+                android:id="@+id/imgScale"
+                android:layout_width="34dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/bigsmall" />
+
+            <ImageView
+                android:id="@+id/imgWallper"
+                android:layout_width="40dip"
+                android:layout_height="30dip"
+                android:src="@drawable/wallpaper" android:layout_marginLeft="10dip" android:layout_marginRight="10dip"/>
+
+            <ImageView
+                android:id="@+id/imgPin"
+                android:layout_width="34dip"
+                android:layout_height="34dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/pintu" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="foldtag" format="integer">1</item>
+    <item type="integer" name="FilePath">1</item>
+    <item type="integer" name="imgwidth">1</item>
+    <item type="integer" name="imgheight">2</item>
+    <item type="integer" name="seled">1</item>
+    <item type="integer" name="imgNo">2</item>
+    <item type="integer" name="free">10</item>
+    <item type="integer" name="perPoint">3</item>
+    <item type="integer" name="FileName">2</item>
+    <item type="integer" name="Alpha">3</item>
+    <item type="integer" name="i">4</item>
+    <item type="integer" name="j">5</item>
+    <item type="integer" name="ImageViewNo">6</item>
+</resources>
